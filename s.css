@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(199, 177, 144);
+  }
+
+  header {
+    background-color: rgb(176, 136, 98);
+    color: hsla(0, 0%, 100%, 0.941);
+    text-align: center;
+    padding: 1em;
+    animation:fadeIn 1s ease-in-out;
+  }
+
+  section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #d3f6eba4;
+    box-shadow: 0 0 10px rgba(196, 178, 97, 0.1);
+    animation:fadeIn 1s ease-in-out;
+  }
+  
+
+  h1,
+  h2 {
+    color: #05050466;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+
+  li {
+    margin-bottom: 1em;
+  }
+  img{
+    align: center;
+  }
+
+  a {
+    color: #6420ebf5;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
